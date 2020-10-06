@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".PostActivity"
+
+    >
+
+    <include
+        android:id="@+id/update_post_toolBar"
+        layout="@layout/app_tool_bar"
+        />
+
+    <ImageButton
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:layout_below="@id/update_post_toolBar"
+        android:src="@drawable/image_add"
+        android:scaleType="centerCrop"
+        android:id="@+id/addImage"
+
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:id="@+id/cap"
+        android:orientation="horizontal"
+        android:layout_below="@+id/addImage"
+        android:weightSum="1"
+        >
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Write Caption....."
+            android:textStyle="bold"
+            android:textSize="27sp"
+            android:id="@+id/caption"
+            android:textFontWeight="20"
+            android:layout_weight="1"
+
+
+            />
+
+    </LinearLayout>
+<ImageView
+    android:layout_width="100dp"
+    android:layout_height="100dp"
+    android:id="@+id/getimage"
+    android:layout_above="@+id/upload"
+    android:layout_marginLeft="10dp"
+
+
+    />
+
+    <Button
+        android:layout_width="190dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/cap"
+        android:layout_alignParentRight="true"
+        android:text="Upload"
+        android:layout_marginTop="25dp"
+        android:background = "@drawable/buttons"
+        android:textStyle="italic"
+        android:textSize="30dp"
+        android:id="@+id/upload"
+
+
+
+
+
+        />
+
+
+</RelativeLayout>

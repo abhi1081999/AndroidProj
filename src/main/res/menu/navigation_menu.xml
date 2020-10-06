@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@+id/post"
+        android:title="Post"/>
+
+    <item android:id="@+id/Followers"
+        android:title="Followers"/>
+
+    <item android:id="@+id/Friends"
+        android:title="Friends"/>
+    <item android:id="@+id/Find_Friends"
+        android:title="Find Friends"/>
+    <item android:id="@+id/messages"
+        android:title="Messages"/>
+    <item android:id="@+id/Settings"
+        android:title="Settings"/>
+    <item android:id="@+id/logout"
+        android:title="Logout"/>
+    <item android:id="@+id/completeProfileSetup"
+        android:title="Profile Setup"/>
+    <item android:id="@+id/userInfo"
+        android:title="User_Info"/>
+
+</menu>
